@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.9
 
 // Copyright 2023 Google LLC
 //
@@ -18,7 +18,7 @@ import PackageDescription
 
 let package = Package(
   name: "GoogleInteractiveMediaAds",
-  platforms: [.iOS(.v11)],
+  platforms: [.iOS(.v11), .visionOS(.v1)],
   products: [
     .library(
       name: "GoogleInteractiveMediaAds",
